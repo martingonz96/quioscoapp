@@ -1,6 +1,6 @@
 import Producto from "../components/Producto"
 import useQuiosco from "../hooks/useQuiosco"
-import Layout from "../layout/layout"
+import Layout from '../layout/Layout'
 
 export default function Home() {
   const { categoriaActual } = useQuiosco()
